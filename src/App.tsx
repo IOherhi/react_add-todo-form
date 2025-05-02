@@ -88,7 +88,6 @@ export const App = () => {
           onClick={e => {
             e.preventDefault();
             addNewTask();
-            setIfClickButton(true);
           }}
         >
           Add
